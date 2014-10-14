@@ -5,12 +5,12 @@
 		<groupId>org.eclipse.hudson.plugins</groupId>
 		<artifactId>hudson-plugin-parent</artifactId>
 		<version>3.0.0</version>
-	<relativePath/>
+	<relativePath />
   </parent>
 
 	<groupId>org.hudsonci.plugins</groupId>
 	<artifactId>createjobadvanced</artifactId>
-	<version>1.5-h-1-SNAPSHOT</version>
+	<version>1.5-h-1</version>
 	<name>Create Job Advanced</name>
   <description>Create Job Advanced</description>
 	<packaging>hpi</packaging>
