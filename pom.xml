@@ -10,7 +10,7 @@
 
 	<groupId>org.hudsonci.plugins</groupId>
 	<artifactId>createjobadvanced</artifactId>
-	<version>1.5-h-1</version>
+	<version>1.5-h-2-SNAPSHOT</version>
 	<name>Create Job Advanced</name>
   <description>Create Job Advanced</description>
 	<packaging>hpi</packaging>
