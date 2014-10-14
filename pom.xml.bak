@@ -2,17 +2,15 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
-		<groupId>org.eclipse.hudson.plugins</groupId>
-		<artifactId>hudson-plugin-parent</artifactId>
-		<version>3.0.0</version>
-	<relativePath/>
-  </parent>
+		<groupId>org.jvnet.hudson.plugins</groupId>
+		<artifactId>plugin</artifactId>
+		<version>1.353</version>
+	</parent>
 
-	<groupId>org.hudsonci.plugins</groupId>
+	<groupId>org.jvnet.hudson.plugins</groupId>
 	<artifactId>createjobadvanced</artifactId>
-	<version>1.5-h-1-SNAPSHOT</version>
+	<version>1.5</version>
 	<name>Create Job Advanced</name>
-  <description>Create Job Advanced</description>
 	<packaging>hpi</packaging>
 
 	<url>http://wiki.hudson-ci.org/display/HUDSON/Create+Job+Advanced+Plugin</url>
@@ -29,9 +27,8 @@
 	<build>
 		<plugins>
 			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-compiler-plugin</artifactId>
-				<version>3.0</version>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>2.0.2</version>
 				<configuration>
 					<source>1.6</source>
 					<target>1.6</target>
@@ -57,18 +54,8 @@
 	-->
 
   <scm>
-    <connection>scm:git:git://github.com/hudson3-plugins/createjobadvanced-plugin.git</connection>
-    <developerConnection>scm:git:git@github.com:hudson3-plugins/createjobadvanced-plugin.git</developerConnection>
-    <url>https://github.com/hudson3-plugins/createjobadvanced-plugin</url>
+    <connection>scm:svn:https://guest@svn.dev.java.net/svn/hudson/tags/createjobadvanced-1.5</connection>
+    <developerConnection>scm:svn:https://svn.dev.java.net/svn/hudson/tags/createjobadvanced-1.5</developerConnection>
+    <url>https://hudson.dev.java.net/source/browse/hudson/tags/createjobadvanced-1.5</url>
   </scm>
-<licenses>
-    <license>
-      <name>The MIT license</name>
-      <url>http://opensource.org/licenses/MIT</url>
-      <distribution>repo</distribution>
-    </license>
-  </licenses>
-  <properties>
-    <hudsonTags>user</hudsonTags>
-  </properties>
 </project>
